@@ -17,18 +17,30 @@
  .main_page {
   background-color: aliceblue;
   font-size: 18px;
-  border: 1px solid #c3c3c3;
+  border: 2px solid #c3c3c3;
   align-content: center;
-  font-family: Arial, Helvetica, sans-serif
+  font-family: Arial, Helvetica, sans-serif;
 }
 .show_dog {
   background-color: lightskyblue;
+  font-size: 18px;
+  border: 2px solid #c3c3c3;
+  align-content: center;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 .new_dog {
   background-color: lightgoldenrodyellow;
+  font-size: 18px;
+  border: 2px solid #c3c3c3;
+  align-content: center;
+  font-family: Arial, Helvetica, sans-serif
 }
 
 .edit_dog {
   background-color:goldenrod;
+  font-size: 18px;
+  border: 2px solid #c3c3c3;
+  align-content: center;
+  font-family: Arial, Helvetica, sans-serif
 }
