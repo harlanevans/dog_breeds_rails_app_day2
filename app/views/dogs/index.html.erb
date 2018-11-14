@@ -1,5 +1,10 @@
+<div class ="main_page" >
 <h1>We Love Dogs!</h1>
 <% @dogs.each do |dog| %>
   <h2><%= dog.name %></h2>
   <%= link_to "Show Doggo", dog_path(dog) %>
+  <%= link_to "A new Puppers!", new_dog_path %>
+  <%= link_to "Need to change your pups info?", edit_dog_path(dog) %>
+  <%= link_to "You want to get rid of a dog? :(", dog, method: :delete %>
   <% end %>
+</div>
